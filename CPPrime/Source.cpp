@@ -40,7 +40,7 @@ void PrimeNumbers(int arraySize)
 	}
 	while (x < arraySize)
 	{
-		maximum = (number + 1) / 2;
+		maximum = (number + 1) / 3;
 		if (isPrime(number, maximum))
 		{
 			PrimeList[x] = number;
